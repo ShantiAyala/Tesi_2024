@@ -5,13 +5,13 @@ Per il corretto funzionamento dell'applicativo:
 Importare il database Postgres, passaggi su Windows:
 
 
-avere installato postgres, verifica da terminale
+1) avere installato postgres, verifica da terminale
 
 psql --version
 
 
 
-crea un database con lo stesso nome
+2) crea un database con lo stesso nome
 
 psql -h localhost -U postgres
 
@@ -21,7 +21,7 @@ conferma creazione
 
 
 
-ripristino backup
+3) ripristino backup
 
 psql -U postgres -d farm_db -f C:\pathToBackup\..\Tesi_2024\farm_db_backup.sql
 
@@ -33,7 +33,7 @@ Installare dipendenze sul nuovo computer
 pip install -r requirements.txt
 
 
-Se necessario modificare le password in db_handler.py
+4) Se necessario modificare le password in db_handler.py
 
 
 conn_params = {
@@ -48,7 +48,7 @@ conn_params = {
 engine = create_engine('postgresql+psycopg2://postgres:TuaPassword@localhost/farm_db')
 
 
-Eseguire l'applicazione
+5) Eseguire l'applicazione
 
 flask run --host=0.0.0.0
 o
