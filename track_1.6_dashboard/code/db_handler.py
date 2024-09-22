@@ -8,7 +8,7 @@ conn_params = {
     "host": "localhost",
     "dbname": "farm_db",
     "user": "postgres",
-    "password": "pollo54",
+    "password": "TuaPassword",
     #"password": "postgres", #decommenta questa linea se la tua password è postgres
     "port": "5432" 
 }
@@ -47,7 +47,7 @@ def truncate_tables(cur):
 
 def get_connection():
     # Crea l'engine SQLAlchemy
-    engine = create_engine('postgresql+psycopg2://postgres:pollo54@localhost/farm_db')
+    engine = create_engine('postgresql+psycopg2://postgres:TuaPassword@localhost/farm_db')
     #decommenta questa linea se la tua password è postgres
     #engine = create_engine('postgresql+psycopg2://postgres:postgres@localhost/farm_db')
     return engine
