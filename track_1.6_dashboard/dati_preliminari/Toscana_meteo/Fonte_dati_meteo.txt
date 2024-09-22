@@ -1,0 +1,1 @@
+Il dataset contiene i dati meteorologici sulle precipitazioni e sulle temperature degli anni 2013,2014,1015, 2016, 2017: registrati dal Servizio Idrologico Regionale presso la stazione di Firenze Università (facoltà di Ingegneria a Santa Marta) e elaborati dall'Ufficio Comunale di Statistica.

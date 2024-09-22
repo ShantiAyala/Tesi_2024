@@ -1,0 +1,6 @@
+percorso:
+....Tesi_2024\code\cvs\ISMEA
+link: 
+https://www.ismeamercati.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/5391
+
+---------

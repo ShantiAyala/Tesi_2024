@@ -1,0 +1,36 @@
+track_1.6_dashboard/
+│
+├── code/  
+│    │    
+│    ├── main.py                   # Main entry point
+│    │
+│    ├── models/                   # Database models, not implemented
+│    │   └── user.py               # Example model for user data
+│    │   └── data.py               # Model to manage your analytical data
+│    │
+│    ├── services/                 # Business logic and data processing
+│    │   └── data_analysis.py      # Statics generation service
+│    │   └── queries.py    	       # Queries SQL
+│    │   └── data_generation.py    # Data generation service
+│    │   └── static_generation.py  # Static generation service
+│    │
+│    ├── static/                   # Static files (CSS, JavaScript, images)
+│    │
+│    ├── assets/                   # Templates for rendering
+│    │   └── styles.css            # styles for index
+│    │
+│    ├── app.py                    # Main entry point for your Flask application
+│    ├── config.py                 # Configuration settings for your application
+│    ├── requirements.txt          # List of dependencies
+│    ├── populate_clean.py         # Script to test db cleaning and db population
+│    ├── db_handler.py             # Database connection and operations
+│    └── cleanup.py                # Cleanup logic on exit
+│
+├── dati_preliminari/               # Folder for preliminary data analysis
+│    │    
+│    ├──ISMEA                      # CSV folder from ISMEA
+│    ├──ISTAT                      # CSV folder from ISTAT
+│    └──Toscana_meteo              # CSV folder from from local weather
+│
+├── farm_connection.session.sql    # Sql for db generation
+└── Traccia_dashboard.pdf          # Projectwork track

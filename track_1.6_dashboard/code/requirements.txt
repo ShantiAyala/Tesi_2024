@@ -1,0 +1,12 @@
+#requirements.txt
+#Elenca le dipendenze del progetto.
+
+#Librerie richieste:
+Faker
+numpy
+pandas
+plotly
+psycopg2
+dash
+sqlalchemy
+matplotlib
