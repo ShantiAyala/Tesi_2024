@@ -3,6 +3,7 @@
 Per il corretto funzionamento dell'applicativo:
 
 Importare il database Postgres, passaggi su Windows:
+
 avere installato postgres, verifica da terminale
 psql --version
 
