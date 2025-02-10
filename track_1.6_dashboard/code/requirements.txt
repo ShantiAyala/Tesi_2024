@@ -2,11 +2,11 @@
 #Elenca le dipendenze del progetto.
 
 #Librerie richieste:
-Faker
-numpy
-pandas
-plotly
-psycopg2
-dash
-sqlalchemy
-matplotlib
+Faker==19.6.2
+numpy>=1.23,<1.25
+pandas==2.0.3
+plotly>=5.17,<5.20
+psycopg2==2.9.9
+dash==2.14.2
+sqlalchemy>=2.0,<2.1
+matplotlib>=3.7,<3.8
